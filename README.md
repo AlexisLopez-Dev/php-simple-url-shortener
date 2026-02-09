@@ -2,6 +2,11 @@
 
 Una aplicación web sencilla para acortar URLs desarrollada en PHP siguiendo el patrón de arquitectura **MVC (Modelo-Vista-Controlador)**. Permite gestionar redirecciones y contar los clicks realizados en cada enlace.
 
+<img width="1919" height="440" alt="image" src="https://github.com/user-attachments/assets/b6a11229-ba50-439d-9310-87213b3ea8b2" />
+<img width="622" height="331" alt="image" src="https://github.com/user-attachments/assets/fc2cdd57-594c-4e42-afc0-e44a2cbe1eb5" />
+
+
+
 ## 🚀 Características
 
 * **Redirección de URLs:** Convierte códigos cortos en URLs de destino.

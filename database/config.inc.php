@@ -1,4 +1,4 @@
 <?php
-const DNS = 'mysql:host=127.0.0.1;port=3310;dbname=bddirecciones';
+const DNS = 'mysql:host=localhost;dbname=nombre_base_datos';
 const USER = 'root';
 const PASSWORD = '';

@@ -46,16 +46,17 @@ Una aplicación web sencilla para acortar URLs desarrollada en PHP siguiendo el 
     ```
 
 3.  **Configuración:**
-    Revisa el archivo `database/config.inc.php` para ajustar tus credenciales de base de datos y el puerto si es necesario:
+    El archivo `database/config.inc.php` viene con valores por defecto. Debes abrirlo y editar las credenciales para que coincidan con tu entorno local:
 
     ```php
-    const DNS = 'mysql:host=127.0.0.1;port=3306;dbname=bddirecciones';
-    const USER = 'root';
-    const PASSWORD = '';
+    // database/config.inc.php
+    const DNS = 'mysql:host=localhost;dbname=bddirecciones'; // Asegúrate de que el nombre coincida con tu BDD
+    const USER = 'root';     // Tu usuario de MySQL
+    const PASSWORD = '';     // Tu contraseña de MySQL
     ```
 
 4.  **Despliegue:**
     Sirve el proyecto desde tu servidor local (Apache/Nginx o PHP Built-in server) y accede a `admin.php` para empezar a gestionar enlaces.
 
-## 📝 Nota Académica
-Este proyecto fue desarrollado como parte de un examen práctico de **Acceso a Datos**, demostrando el uso de PDO, sesiones y arquitectura por capas en PHP.
+## 📝 Nota: Proyecto académico
+Este proyecto fue desarrollado como parte de un examen práctico de la asignatura **Desarrollo Web en Entorno Servidor (2ºDAW)**, demostrando el uso de PDO, sesiones y arquitectura por capas en PHP.
